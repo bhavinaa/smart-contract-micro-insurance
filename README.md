@@ -1,5 +1,3 @@
-# smart-contract-micro-insurance
-
 # 🌾 Smart Contract-Based Micro-Insurance for Farmers
 
 ## 🚀 Introduction
