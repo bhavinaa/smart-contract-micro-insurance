@@ -2,7 +2,7 @@
 
 ## 🚀 Introduction
 
-This project was developed as part of a **Hackathon** to provide a **blockchain-powered micro-insurance system** for small farmers in India. It uses **smart contracts** to automate **insurance payouts** based on real-time weather data fetched from **Chainlink Oracles**. This eliminates bureaucratic delays, ensuring **timely financial relief** during natural disasters like droughts and floods.
+This project was developed as part of a **Hackathon** to provide a **blockchain-powered micro-insurance system** for small farmers in India. It uses **smart contracts** to automate **insurance payouts** based on real-time weather data fetcheD. This eliminates bureaucratic delays, ensuring **timely financial relief** during natural disasters like droughts and floods.
 
 ---
 
