@@ -1,0 +1,187 @@
+Initialized native services in: /home/vanitha/.gradle/native
+Initialized jansi services in: /home/vanitha/.gradle/native
+The client will now receive all logging from the daemon (pid: 6515). The daemon log file: /home/vanitha/.gradle/daemon/8.11.1/daemon-6515.out.log
+Starting 116th build in daemon [uptime: 3 hrs 47 mins 2.753 secs, performance: 97%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 28% of 384 MiB]
+Using 20 worker leases.
+Now considering [/home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance, /home/vanitha/fabric-samples/asset-transfer-basic/application-gateway-microinsurance, /home/vanitha/fabric-samples/asset-transfer-basic/application-gateway-java, /home/vanitha/fabric-samples/asset-transfer-basic/chaincode-java] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/settings.gradle'.
+Projects loaded. Root project using build file '/home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/build.gradle'.
+Included projects: [root project 'basic']
+
+> Configure project :
+Evaluating root project 'basic' using build file '/home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/build.gradle'.
+Transforming shadow-gradle-plugin-8.3.5.jar (com.gradleup.shadow:shadow-gradle-plugin:8.3.5) with InstrumentationAnalysisTransform
+Transforming log4j-core-2.24.1.jar (org.apache.logging.log4j:log4j-core:2.24.1) with InstrumentationAnalysisTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with InstrumentationAnalysisTransform
+Transforming asm-commons-9.7.1.jar (org.ow2.asm:asm-commons:9.7.1) with InstrumentationAnalysisTransform
+Transforming commons-io-2.17.0.jar (commons-io:commons-io:2.17.0) with InstrumentationAnalysisTransform
+Transforming ant-1.10.15.jar (org.apache.ant:ant:1.10.15) with InstrumentationAnalysisTransform
+Transforming plexus-utils-4.0.2.jar (org.codehaus.plexus:plexus-utils:4.0.2) with InstrumentationAnalysisTransform
+Transforming plexus-xml-4.0.4.jar (org.codehaus.plexus:plexus-xml:4.0.4) with InstrumentationAnalysisTransform
+Transforming jdependency-2.11.jar (org.vafer:jdependency:2.11) with InstrumentationAnalysisTransform
+Transforming asm-tree-9.7.1.jar (org.ow2.asm:asm-tree:9.7.1) with InstrumentationAnalysisTransform
+Transforming asm-9.7.1.jar (org.ow2.asm:asm:9.7.1) with InstrumentationAnalysisTransform
+Transforming ant-launcher-1.10.15.jar (org.apache.ant:ant-launcher:1.10.15) with InstrumentationAnalysisTransform
+Transforming maven-xml-impl-4.0.0-alpha-9.jar (org.apache.maven:maven-xml-impl:4.0.0-alpha-9) with InstrumentationAnalysisTransform
+Transforming log4j-api-2.24.1.jar (org.apache.logging.log4j:log4j-api:2.24.1) with InstrumentationAnalysisTransform
+Transforming maven-api-xml-4.0.0-alpha-9.jar (org.apache.maven:maven-api-xml:4.0.0-alpha-9) with InstrumentationAnalysisTransform
+Transforming woodstox-core-6.5.1.jar (com.fasterxml.woodstox:woodstox-core:6.5.1) with InstrumentationAnalysisTransform
+Transforming maven-api-meta-4.0.0-alpha-9.jar (org.apache.maven:maven-api-meta:4.0.0-alpha-9) with InstrumentationAnalysisTransform
+Transforming stax2-api-4.2.1.jar (org.codehaus.woodstox:stax2-api:4.2.1) with InstrumentationAnalysisTransform
+Transforming shadow-gradle-plugin-8.3.5.jar (com.gradleup.shadow:shadow-gradle-plugin:8.3.5) with InstrumentationAnalysisTransform
+Transforming shadow-gradle-plugin-8.3.5.jar (com.gradleup.shadow:shadow-gradle-plugin:8.3.5) with MergeInstrumentationAnalysisTransform
+Transforming log4j-core-2.24.1.jar (org.apache.logging.log4j:log4j-core:2.24.1) with InstrumentationAnalysisTransform
+Transforming log4j-core-2.24.1.jar (org.apache.logging.log4j:log4j-core:2.24.1) with MergeInstrumentationAnalysisTransform
+Transforming shadow-gradle-plugin-8.3.5.jar (com.gradleup.shadow:shadow-gradle-plugin:8.3.5) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with InstrumentationAnalysisTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with MergeInstrumentationAnalysisTransform
+Transforming log4j-core-2.24.1.jar (org.apache.logging.log4j:log4j-core:2.24.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-commons-9.7.1.jar (org.ow2.asm:asm-commons:9.7.1) with InstrumentationAnalysisTransform
+Transforming asm-commons-9.7.1.jar (org.ow2.asm:asm-commons:9.7.1) with MergeInstrumentationAnalysisTransform
+Transforming jdom2-2.0.6.1.jar (org.jdom:jdom2:2.0.6.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-io-2.17.0.jar (commons-io:commons-io:2.17.0) with InstrumentationAnalysisTransform
+Transforming commons-io-2.17.0.jar (commons-io:commons-io:2.17.0) with MergeInstrumentationAnalysisTransform
+Transforming asm-commons-9.7.1.jar (org.ow2.asm:asm-commons:9.7.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming ant-1.10.15.jar (org.apache.ant:ant:1.10.15) with InstrumentationAnalysisTransform
+Transforming ant-1.10.15.jar (org.apache.ant:ant:1.10.15) with MergeInstrumentationAnalysisTransform
+Transforming commons-io-2.17.0.jar (commons-io:commons-io:2.17.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming plexus-utils-4.0.2.jar (org.codehaus.plexus:plexus-utils:4.0.2) with InstrumentationAnalysisTransform
+Transforming plexus-utils-4.0.2.jar (org.codehaus.plexus:plexus-utils:4.0.2) with MergeInstrumentationAnalysisTransform
+Transforming ant-1.10.15.jar (org.apache.ant:ant:1.10.15) with ExternalDependencyInstrumentingArtifactTransform
+Transforming plexus-xml-4.0.4.jar (org.codehaus.plexus:plexus-xml:4.0.4) with InstrumentationAnalysisTransform
+Transforming plexus-xml-4.0.4.jar (org.codehaus.plexus:plexus-xml:4.0.4) with MergeInstrumentationAnalysisTransform
+Transforming plexus-utils-4.0.2.jar (org.codehaus.plexus:plexus-utils:4.0.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jdependency-2.11.jar (org.vafer:jdependency:2.11) with InstrumentationAnalysisTransform
+Transforming jdependency-2.11.jar (org.vafer:jdependency:2.11) with MergeInstrumentationAnalysisTransform
+Transforming plexus-xml-4.0.4.jar (org.codehaus.plexus:plexus-xml:4.0.4) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-tree-9.7.1.jar (org.ow2.asm:asm-tree:9.7.1) with InstrumentationAnalysisTransform
+Transforming jdependency-2.11.jar (org.vafer:jdependency:2.11) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-tree-9.7.1.jar (org.ow2.asm:asm-tree:9.7.1) with MergeInstrumentationAnalysisTransform
+Transforming asm-9.7.1.jar (org.ow2.asm:asm:9.7.1) with InstrumentationAnalysisTransform
+Transforming asm-tree-9.7.1.jar (org.ow2.asm:asm-tree:9.7.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-9.7.1.jar (org.ow2.asm:asm:9.7.1) with MergeInstrumentationAnalysisTransform
+Transforming ant-launcher-1.10.15.jar (org.apache.ant:ant-launcher:1.10.15) with InstrumentationAnalysisTransform
+Transforming asm-9.7.1.jar (org.ow2.asm:asm:9.7.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming ant-launcher-1.10.15.jar (org.apache.ant:ant-launcher:1.10.15) with MergeInstrumentationAnalysisTransform
+Transforming maven-xml-impl-4.0.0-alpha-9.jar (org.apache.maven:maven-xml-impl:4.0.0-alpha-9) with InstrumentationAnalysisTransform
+Transforming maven-xml-impl-4.0.0-alpha-9.jar (org.apache.maven:maven-xml-impl:4.0.0-alpha-9) with MergeInstrumentationAnalysisTransform
+Transforming ant-launcher-1.10.15.jar (org.apache.ant:ant-launcher:1.10.15) with ExternalDependencyInstrumentingArtifactTransform
+Transforming log4j-api-2.24.1.jar (org.apache.logging.log4j:log4j-api:2.24.1) with InstrumentationAnalysisTransform
+Transforming log4j-api-2.24.1.jar (org.apache.logging.log4j:log4j-api:2.24.1) with MergeInstrumentationAnalysisTransform
+Transforming maven-xml-impl-4.0.0-alpha-9.jar (org.apache.maven:maven-xml-impl:4.0.0-alpha-9) with ExternalDependencyInstrumentingArtifactTransform
+Transforming maven-api-xml-4.0.0-alpha-9.jar (org.apache.maven:maven-api-xml:4.0.0-alpha-9) with InstrumentationAnalysisTransform
+Transforming maven-api-xml-4.0.0-alpha-9.jar (org.apache.maven:maven-api-xml:4.0.0-alpha-9) with MergeInstrumentationAnalysisTransform
+Transforming log4j-api-2.24.1.jar (org.apache.logging.log4j:log4j-api:2.24.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming woodstox-core-6.5.1.jar (com.fasterxml.woodstox:woodstox-core:6.5.1) with InstrumentationAnalysisTransform
+Transforming woodstox-core-6.5.1.jar (com.fasterxml.woodstox:woodstox-core:6.5.1) with MergeInstrumentationAnalysisTransform
+Transforming maven-api-xml-4.0.0-alpha-9.jar (org.apache.maven:maven-api-xml:4.0.0-alpha-9) with ExternalDependencyInstrumentingArtifactTransform
+Transforming maven-api-meta-4.0.0-alpha-9.jar (org.apache.maven:maven-api-meta:4.0.0-alpha-9) with InstrumentationAnalysisTransform
+Transforming maven-api-meta-4.0.0-alpha-9.jar (org.apache.maven:maven-api-meta:4.0.0-alpha-9) with MergeInstrumentationAnalysisTransform
+Transforming woodstox-core-6.5.1.jar (com.fasterxml.woodstox:woodstox-core:6.5.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming stax2-api-4.2.1.jar (org.codehaus.woodstox:stax2-api:4.2.1) with InstrumentationAnalysisTransform
+Transforming stax2-api-4.2.1.jar (org.codehaus.woodstox:stax2-api:4.2.1) with MergeInstrumentationAnalysisTransform
+Transforming maven-api-meta-4.0.0-alpha-9.jar (org.apache.maven:maven-api-meta:4.0.0-alpha-9) with ExternalDependencyInstrumentingArtifactTransform
+Transforming stax2-api-4.2.1.jar (org.codehaus.woodstox:stax2-api:4.2.1) with ExternalDependencyInstrumentingArtifactTransform
+All projects evaluated.
+Task name matched 'test'
+Selected primary task 'test' from project :
+Path for java installation '/usr/lib/jvm/openjdk-11' (Common Linux Locations) auto-detected does not contain a java executable
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[Execution worker,5,main]) started.
+:compileJava (Thread[Execution worker,5,main]) started.
+
+> Task :compileJava
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Task ':compileJava' is not up-to-date because:
+  Input property 'stableSources' file /home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/src/main/java/org/hyperledger/fabric/samples/microinsurance/InsuranceContract.java has changed.
+Compilation mode: in-process compilation
+Created classpath snapshot for incremental compilation in 0.001 secs.
+Compiling with toolchain '/usr/lib/jvm/java-11-openjdk-amd64'.
+Compiling with JDK Java compiler API.
+Incremental compilation of 2 classes completed in 0.045 secs.
+Class dependency analysis for incremental compilation took 0.001 secs.
+Resolve mutations for :processResources (Thread[Execution worker,5,main]) started.
+:processResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :processResources NO-SOURCE
+Skipping task ':processResources' as it has no source files and no previous output files.
+Resolve mutations for :classes (Thread[Execution worker Thread 7,5,main]) started.
+:classes (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :classes
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :compileTestJava (Thread[Execution worker Thread 17,5,main]) started.
+:compileTestJava (Thread[Execution worker Thread 17,5,main]) started.
+
+> Task :compileTestJava UP-TO-DATE
+Caching disabled for task ':compileTestJava' because:
+  Build cache is disabled
+Skipping task ':compileTestJava' as it is up-to-date.
+Resolve mutations for :processTestResources (Thread[Execution worker Thread 17,5,main]) started.
+:processTestResources (Thread[Execution worker Thread 17,5,main]) started.
+
+> Task :processTestResources NO-SOURCE
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+Resolve mutations for :testClasses (Thread[Execution worker Thread 17,5,main]) started.
+:testClasses (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :testClasses UP-TO-DATE
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :test (Thread[Execution worker Thread 14,5,main]) started.
+:test (Thread[Execution worker Thread 5,5,main]) started.
+Gradle Test Executor 54 started executing tests.
+
+> Task :test
+Custom actions are attached to task ':test'.
+Caching disabled for task ':test' because:
+  Build cache is disabled
+Task ':test' is not up-to-date because:
+  Task has failed previously.
+Starting process 'Gradle Test Executor 54'. Working directory: /home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance Command: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Dorg.gradle.internal.worker.tmpdir=/home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/build/tmp/test/work -javaagent:/home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/build/tmp/.cache/expanded/zip_ff7bf8f04f99dc306508d1c81e47a68b/jacocoagent.jar=destfile=build/jacoco/test.exec,append=true,inclnolocationclasses=false,dumponexit=true,output=file,jmx=false @/home/vanitha/.gradle/.tmp/gradle-worker-classpath4743470809175445017txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 54'
+Successfully started process 'Gradle Test Executor 54'
+
+InsuranceContractTest > invokeGetAllAssetsTransaction() STANDARD_OUT
+    In GetAllInsurancePolicys
+    org.hyperledger.fabric.samples.microinsurance.InsurancePolicy@f416bf25
+    org.hyperledger.fabric.samples.microinsurance.InsurancePolicy@2c28c824
+    org.hyperledger.fabric.samples.microinsurance.InsurancePolicy@34ae1e27
+    In GetAllInsurancePolicys[org.hyperledger.fabric.samples.microinsurance.InsurancePolicy@f416bf25, org.hyperledger.fabric.samples.microinsurance.InsurancePolicy@2c28c824, org.hyperledger.fabric.samples.microinsurance.InsurancePolicy@34ae1e27]
+    [{"condition":"Good","coverageAmount":5000.0,"farmerID":"farmer123","farmerName":"John Doe","payoutAmount":1000,"planName":"Plan A","policyID":"policy1","premiumAmount":200.0,"status":"Active"},{"condition":"Fair","coverageAmount":10000.0,"farmerID":"farmer456","farmerName":"Jane Doe","payoutAmount":2000,"planName":"Plan B","policyID":"policy2","premiumAmount":400.0,"status":"Active"},{"condition":"Poor","coverageAmount":15000.0,"farmerID":"farmer789","farmerName":"Bob Smith","payoutAmount":3000,"planName":"Plan C","policyID":"policy3","premiumAmount":600.0,"status":"Active"}]
+
+InsuranceContractTest > testProcessPayout_InvalidPolicy() FAILED
+    java.lang.AssertionError: 
+    Expecting actual throwable to be an instance of:
+      org.hyperledger.fabric.shim.ChaincodeException
+    but was:
+      java.lang.NullPointerException
+    	at java.base/java.io.StringReader.<init>(StringReader.java:50)
+    	at com.owlike.genson.Genson.deserialize(Genson.java:299)
+    	at org.hyperledger.fabric.samples.microinsurance.InsuranceContract.processPayout(InsuranceContract.java:297)
+    	...(87 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+        at org.hyperledger.fabric.samples.microinsurance.InsuranceContractTest.testProcessPayout_InvalidPolicy(InsuranceContractTest.java:327)
+
+InsuranceContractTest > InvokeCreateAssetTransaction > whenAssetExists() STANDARD_OUT
+    InsurancePolicy policy1 already exists
+
+InsuranceContractTest > InvokeReadAssetTransaction > whenAssetDoesNotExist() STANDARD_OUT
+    InsurancePolicy policy1 does not exist
+
+Gradle Test Executor 54 finished executing tests.
+
+> Task :test FAILED
+Finished generating test XML results (0.001 secs) into: /home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/build/test-results/test
+Generating HTML test report...
+Finished generating test html results (0.002 secs) into: /home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/build/reports/tests/test
+[Incubating] Problems report is available at: file:///home/vanitha/fabric-samples/asset-transfer-basic/chaincode-microinsurance/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+3 actionable tasks: 2 executed, 1 up-to-date
