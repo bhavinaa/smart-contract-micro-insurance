@@ -13,11 +13,21 @@ const firebaseConfig = {
   appId: "1:1047494600812:web:13e3b78fbec75268ff1049"
 };
 
-// firebase.initializeApp(firebaseConfig);
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const authentication = getAuth(app);
-const db = getFirestore(app); 
+// // firebase.initializeApp(firebaseConfig);
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+// const authentication = getAuth(app);
+// const db = getFirestore(app); 
 
-// export { authentication, firebaseConfig};
-export { authentication, db, getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, getStorage,  sendPasswordResetEmail  };
+// // export { authentication, firebaseConfig};
+// export { authentication, db, getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, getStorage,  sendPasswordResetEmail  };
+
+
+// ✅ Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+// ✅ Export Authentication
+export const authentication = getAuth(app);
+
+// ✅ Default export required by Expo Router
+export default app;
