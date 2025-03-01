@@ -1,7 +1,6 @@
 import { View, Text, ScrollView, StyleSheet, Pressable } from 'react-native';
 import { VictoryPie, VictoryLabel } from 'victory-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Card from './Card';
 
 export default function DashboardScreen() {
   const policyData = {

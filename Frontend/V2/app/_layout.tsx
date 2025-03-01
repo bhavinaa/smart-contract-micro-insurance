@@ -1,28 +1,53 @@
-import { useEffect } from 'react';
-import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { Platform } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import { NavigationContainer } from "@react-navigation/native";
+import { AuthProvider, useAuth } from "./context/AuthContext";
+import AuthStack from "./navigation/AuthStack";
+import UserStack from "./navigation/UserStack";
+import OfficialStack from "./navigation/OfficialStack";
 
-declare global {
-  interface Window {
-    frameworkReady?: () => void;
-  }
-}
+// const AppContent = () => {
+//   const { loggedInUser } = useAuth();
+//   return (
+//     // <Text> hello </Text>
+//     <NavigationContainer >
+//       {loggedInUser ? <UserStack /> : <AuthStack />}
+//     </NavigationContainer>
+//   );
+// };
 
-export default function RootLayout() {
-  useEffect(() => {
-    if (Platform.OS === 'web') {
-      window.frameworkReady?.();
-    }
-  }, []);
+const AppContent = () => {
+  const { loggedInUser } = useAuth();
+  return loggedInUser ? <UserStack /> : <AuthStack />; 
+};
 
+// const AppContent = () => {
+//   const { loggedInUser } = useAuth();
+
+//   if (!loggedInUser) {
+//     return <AuthStack />;
+//   }
+
+//   return loggedInUser.role === "Farmer" ? <UserStack /> : <OfficialStack />;
+// };
+
+
+
+export default function App() {
   return (
-    <>
-      <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
-      </Stack>
-      <StatusBar style="auto" />
-    </>
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+
+

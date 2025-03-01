@@ -1,17 +1,23 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import { getAuth,  sendPasswordResetEmail  } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import {collection, addDoc, getDocs, doc, updateDoc, deleteDoc } from "firebase/firestore";
+import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyAIqCOfYLsHTI5b-eZyzTyHjFHNquKapEU",
+  authDomain: "aintern-415bb.firebaseapp.com",
+  projectId: "aintern-415bb",
+  storageBucket: "aintern-415bb.firebasestorage.app",
+  messagingSenderId: "1047494600812",
+  appId: "1:1047494600812:web:13e3b78fbec75268ff1049"
 };
 
+// firebase.initializeApp(firebaseConfig);
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
+const authentication = getAuth(app);
+const db = getFirestore(app); 
 
-export { auth };
+// export { authentication, firebaseConfig};
+export { authentication, db, getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, getStorage,  sendPasswordResetEmail  };
