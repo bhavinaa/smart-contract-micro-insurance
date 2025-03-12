@@ -21,16 +21,6 @@ const AppContent = () => {
   return loggedInUser ? <UserStack /> : <AuthStack />; 
 };
 
-// const AppContent = () => {
-//   const { loggedInUser } = useAuth();
-
-//   if (!loggedInUser) {
-//     return <AuthStack />;
-//   }
-
-//   return loggedInUser.role === "Farmer" ? <UserStack /> : <OfficialStack />;
-// };
-
 
 
 export default function App() {

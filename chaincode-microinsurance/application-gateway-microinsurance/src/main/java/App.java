@@ -125,16 +125,18 @@ public final class App {
 		getAllAssets();
 
 		// Create a new asset on the ledger.
-		createAsset();
+	//	createAsset();
 
 		// Update an existing asset asynchronously.
-		transferAssetAsync();
+	//	transferAssetAsync();
 
 		// Get the asset details by assetID.
-		readAssetById();
+	//	readAssetById();
 
 		// Update an asset which does not exist.
 	//	updateNonExistentAsset();
+		deleteAssetbyId("policy1");
+		getAllAssets();
 	}
 
 	/**
@@ -177,18 +179,38 @@ public final class App {
 	private void createAsset() throws EndorseException, SubmitException, CommitStatusException, CommitException {
 		System.out.println("\n--> Submit Transaction: CreateAsset, creates new asset with ID, Color, Size, Owner and AppraisedValue arguments");
 
-		String policyId = "POLICY-" + Instant.now().toEpochMilli();
-		String policyHolder = "John Doe";
-		int coverageAmount = 100000;
-		double premium = 500.0;
-		String effectiveDate = "2023-03-01";
-		String expirationDate = "2024-03-01";
-		String policyType = "Auto";
-		String vehicleMake = "Toyota";
-		String vehicleModel = "Camry";
-		int vehicleYear = 2015;
+		String PolicyID = "POLICY-" + Instant.now().toEpochMilli();
+		String farmerID = "FARMERID";
+		String farmerName = "farmername";
+		String planName = "planname4";
+		String condition = "condition5";
+		int payoutAmount = 2015;
+		double coverageAmount = 1000.0;
+		double premiumAmount = 100.0;
+		String status = "Active";
 	
-		contract.submitTransaction("CreateAsset", policyId, policyHolder, String.valueOf(coverageAmount), String.valueOf(premium), effectiveDate, expirationDate, policyType, vehicleMake, vehicleModel, String.valueOf(vehicleYear));
+		contract.submitTransaction("CreateAsset", policyID, farmerID, farmerName, planName, condition, payoutAmount,coverageAmount, premiumAmount, status);
+
+	// 	public InsurancePolicy(@JsonProperty("policyID") String policyID,
+    //                        @JsonProperty("farmerID") String farmerID,
+    //                        @JsonProperty("farmerName") String farmerName,
+    //                        @JsonProperty("planName") String planName,
+    //                        @JsonProperty("condition") String condition,
+    //                        @JsonProperty("payoutAmount") int payoutAmount,
+    //                        @JsonProperty("coverageAmount") double coverageAmount,
+    //                        @JsonProperty("premiumAmount") double premiumAmount,
+    //                        @JsonProperty("status") String status) {
+    //     this.policyID = policyID;
+    //     this.farmerID = farmerID;
+    //     this.farmerName = farmerName;
+    //     this.planName = planName;
+    //     this.condition = condition;
+    //     this.payoutAmount = payoutAmount;
+    //     this.coverageAmount = coverageAmount;
+    //     this.premiumAmount = premiumAmount;
+    //    // this.startDate = startDate;
+    //    // this.endDate = endDate;
+    //     this.status = status;
 	
 
 //		contract.submitTransaction("CreateAsset", assetId, "yellow", "5", "Tom", "1300");
@@ -233,6 +255,14 @@ public final class App {
 		System.out.println("*** Result:" + prettyJson(evaluateResult));
 	}
 
+	private void deleteAssetbyId(final String policyID) throws GatewayException {
+		System.out.println("\n--> Delete Transaction: DeleteAsset, function returns asset attributes");
+
+		var evaluateResult = contract.evaluateTransaction("DeleteInsurancePolicy", policyId);
+
+		System.out.println("*** Result:" + prettyJson(evaluateResult));
+		
+	}
 	/**
 	 * submitTransaction() will throw an error containing details of any error
 	 * responses from the smart contract.
