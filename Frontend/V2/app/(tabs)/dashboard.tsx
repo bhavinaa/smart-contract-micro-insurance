@@ -18,7 +18,7 @@ export default function DashboardScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.greeting}>Welcome back, John</Text>
+        <Text style={styles.greeting}>Welcome back, Bhavina</Text>
         <Text style={styles.subtitle}>Your Insurance Dashboard</Text>
       </View>
 

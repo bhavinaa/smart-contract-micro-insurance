@@ -11,17 +11,17 @@ export default function UserStack() {
     <Stack.Navigator>
       <Stack.Screen name="Main" 
       component={DashboardScreen}
-      options = {{ headerShown: false}}
+      options = {{ headerShown: true}}
        />
       <Stack.Screen 
       name="Dashboard" 
       component={DashboardScreen}
-      options = {{ headerShown: false}} 
+      options = {{ headerShown: true}} 
       />
       <Stack.Screen 
       name="Profile" 
       component={ProfileScreen}
-      options = {{ headerShown: false}} 
+      options = {{ headerShown: true}} 
       />
     </Stack.Navigator>
   );
